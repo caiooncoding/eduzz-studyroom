@@ -18,5 +18,4 @@ git show
 
 # Untracked to Tracked flow
 
-![Alt text](/home/japa/Downloads/trackingflow.jpeg)
-
+![Imgur](https://i.imgur.com/yEqdSVb.jpg)
