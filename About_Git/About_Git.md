@@ -22,11 +22,11 @@ git show
 
 ### Essa chart representa todos os estágios que um arquivo ou repositório pode se encontrar até que esteja pronto para que seja feito o commit.
 
-* Começando na adição do arquivo ou repositório fazendo com que esse arquivo saia do *Untracked* e comece a ser *Tracked*.
+* Começando na adição do arquivo ou repositório fazendo com que esse arquivo saia do *Untracked* e comece a ser *Tracked* e Unmodified.
 
 * Caso algum arquivo seja modificado ele vai para o estado de Modified 
 
-* Quando tudo está pronto para ser enviado tanto os novos arquivos/repositórios que tenham sido apenas adicionados ou os existentes que foram modificados, é preciso adicionar essas alterações com:
+* Quando tudo está pronto para ser enviado tanto os novos arquivos/repositórios que tenham sido adicionados ou os existentes que foram modificados, é preciso adicionar essas alterações com:
 
   ```
   git add *
