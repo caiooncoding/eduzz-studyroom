@@ -49,3 +49,36 @@ git show
   git push origin "nomedabranch"
   ```
 
+---
+
+# Objetos Fundamentais
+
+### Temos 3 Objetos fundamentais que compõe o Git sendo elas:
+
+#### Blobs
+
+Que são compostos por:
+
+* SHA1
+* Tamanho
+* Conteúdo
+
+#### Tree
+
+Que são compostas por:
+
+* Blobs
+* SHA1
+* Nome dos arquivos/repositórios
+* Tamanho
+
+#### Commit
+
+Que são compostos por:
+
+* Parente
+* Tree
+* SHA1
+* Autor
+* Mensagem
+* Timestamp
