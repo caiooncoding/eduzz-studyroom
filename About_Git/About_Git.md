@@ -19,3 +19,33 @@ git show
 # Untracked to Tracked flow
 
 ![Imgur](https://i.imgur.com/yEqdSVb.jpg)
+
+### Essa chart representa todos os estágios que um arquivo ou repositório pode se encontrar até que esteja pronto para que seja feito o commit.
+
+* Começando na adição do arquivo ou repositório fazendo com que esse arquivo saia do *Untracked* e comece a ser *Tracked*.
+
+* Caso algum arquivo seja modificado ele vai para o estado de Modified 
+
+* Quando tudo está pronto para ser enviado tanto os novos arquivos/repositórios que tenham sido apenas adicionados ou os existentes que foram modificados, é preciso adicionar essas alterações com:
+
+  ```
+  git add *
+  git add .
+  
+  Os acima são usados para adicionar tudo que foi modificado dentro daquele repositório
+  ```
+
+* Após as alterações serem adicionadas com sucesso você pode fazer o commit das mesmas com:
+
+  ```
+  git commit -m "message"
+  ```
+
+​		**Parâmetro -m é usado para adicionar uma mensagem ao commit**
+
+* Feito o commit só falta puxar as alterações do local host para o servidor com:
+
+  ```
+  git push origin "nomedabranch"
+  ```
+
