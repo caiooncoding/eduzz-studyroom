@@ -8,6 +8,8 @@
 
 [Conceitos Básicos de HTML](https://github.com/caiooncoding/studyroom-dio/blob/main/about_HTML/about_HTML.md)
 
+[Conceitos Básicos de CSS](https://github.com/caiooncoding/studyroom-dio/blob/main/about_CSS/about_CSS.md)
+
 #### Links de apoio:
 
 [Sintaxe básica de Markdown](https://www.markdownguide.org/basic-syntax/)
