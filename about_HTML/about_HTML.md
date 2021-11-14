@@ -62,5 +62,25 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 
 Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo **h1** o mais importante e **h6** o menos.
 
+```html
+<p></p>
+```
+
+Para textos maiores e mais densos usamos o elemento p, que representa um parágrafo, porém não suporte apenas texto, podemos adicionar imagens, código, vídeos e outros tipos de conteúdo dentro dele.
+
+```html
+<a></a>
+```
+
+Um outro elemento interessante e extremamente necessário na web é o ***a*** - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
+
+Os atributos principais são o ***href e o target***.
+
+**href** representa o hyperlink para onde a anchor aponta, pode ser uma página de site, um e-mail, até mesmo telefone.
+
+***OBS***: *os dois últimos precisam dos prefixos mailto: e tel:, respectivamente.*
+
+**target** serve para abrir os links em outra aba do navegador usando o valor _blank.
+
 
 
