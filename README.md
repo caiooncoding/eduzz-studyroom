@@ -4,7 +4,7 @@
 
 #### Anotações
 
-[Conceitos Básicos de Git](https://github.com/caiooncoding/dio-desafio-github/blob/main/About_Git/About_Git.md)
+[Conceitos Básicos de Git](https://github.com/caiooncoding/studyroom-dio/blob/main/about_Git/About_Git.md)
 
 [Conceitos Básicos de HTML](https://github.com/caiooncoding/studyroom-dio/blob/main/about_HTML/about_HTML.md)
 
