@@ -290,7 +290,135 @@ O código JavaScript é executado em duas fases. Primeiro, é feito o **parsing*
 
 O efeito disso é que é como se as declarações de variáveis fossem levantadas para o topo da função ou arquivo em que estão definidas.
 
+----
 
+## Orientação a Objetos
+
+* Herança
+* Classes
+* Modificadores de acesso
+* Encapsulamento
+* Static
+
+### Herança
+
+* Baseada em protótipos
+* Prototype
+* Constructor
+
+Prototype é uma variável que armazena as definições do nosso objeto. Toda vez que uma variável é criada um prototype é criado também apontando o tipo da variável criada, e esse tipo é chamado de **constructor**.
+
+proto -> prototype -> constructor
+
+proto aponta para um prototype que é criado a partir de uma função construtora
+
+Exemplo:
+
+```javascript
+function Animal(){
+    this.qtdePatas = 4;
+}
+const cachorro = new Animal();
+```
+
+Um novo objeto é criado herdando o Animal.prototype.
+
+### Classes
+
+* Simplificação da herança do prototype
+* palavra chave **class**
+
+----
+
+### Design Patterns
+
+Design Patterns são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Não se trata de um framework ou um código pronto, mas de uma definição de alto nível de como um problema comum pode ser solucionado.
+
+***Formato de um pattern***:
+
+* Nome
+* Exemplo
+* Contexto
+* Problema
+* Solução
+
+***Tipos de um pattern***:
+
+* Criação
+* Estruturais
+* Comportamentais
+
+***Padrões de criação***:
+
+Os padrões de criação são aqueles que abstraem e/ou adiam o processo de criação dos objetos. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
+
+Dentro dos padrões de criação temos:
+
+* Abstract Factory
+* Builder
+* Factory Method
+* Prototype
+* Singleton
+
+***Padrões estruturais***:
+
+Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores.
+
+Dentro dos padrões estruturais temos:
+
+* Adapter
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Businesse Delegate
+* Flyweight
+* Proxy
+
+***Padrões comportamentais***:
+
+Os padrões de comportamento se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos.
+
+Dentro dos padrões comportamentais temos:
+
+* Chain of responsability
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* Observer
+* State
+* Strategy
+* Template Method
+* Visitor
+
+### Os patters mais utilizados no JavaScript são:
+
+* Factory
+* Singleton
+* Decorator
+* Observer
+* Module
+
+## Factory:
+
+Todas as funções que retornam um objeto sem a necessidade de chamá-las com o **new**, são consideradas funções Factory.
+
+## Singleton:
+
+O objetivo desse pattern é criar uma única instância de uma função construtora e retorná-la toda vez em que for necessário utilizá-la.
+
+## Decorator
+
+Uma função decorator recebe uma outra função como parâmetro e estende o seu comportamento sem modificá-la explicitamente.
+
+## Observer
+
+A instância(subscriber) mantém uma coleção de objetos (observer) e notifica todos eles quando ocorrem mudanças no estado.
+
+## Module
+
+É um pattern que possibilita organizarmos melhor o nosso código, sem a necessidade de expor uma variável global.
 
 
 
