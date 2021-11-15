@@ -1,5 +1,7 @@
 # JavaScript
 
+## Primitive Data Types:
+
 - String → (Text)
 
   ### String Manipulation
@@ -39,7 +41,7 @@
 
 ----
 
-# Operadores
+## Operadores
 
 - Aritméticos
 
@@ -110,7 +112,7 @@
 
 -----
 
-# Condição Simples
+## Condição Simples
 
 ```javascript
 if(condição){
@@ -118,7 +120,7 @@ if(condição){
 }
 ```
 
-# Condição Composta
+## Condição Composta
 
 ```javascript
 if(condição){
@@ -128,7 +130,7 @@ if(condição){
 }
 ```
 
-# Condição Aninhada
+## Condição Aninhada
 
 ```javascript
 if(condição1){
@@ -141,7 +143,7 @@ if(condição1){
 }
 ```
 
-# Condição Múltipla
+## Condição Múltipla
 
 ```javascript
 switch(expressão) {
@@ -163,9 +165,9 @@ switch(expressão) {
 }
 ```
 
-------
+----
 
-# Repetições
+## Repetições
 
 ```jsx
 while(condição){ 
@@ -213,9 +215,9 @@ for(var c = 1/*inicio*/ ; c <= 10 /*teste lógico*/ ; c++ /* incremento */){
 
 > Sempre que for fazer uma repetição de X número até Y número, é preciso criar um contador(c)
 
-------
+-----
 
-# Array
+## Array
 
 ```jsx
 var a/*array*/ = [a, b, c/*valor*/]/*elementos*/ 
@@ -234,9 +236,9 @@ for(var c in a){ /* repetição para variaveis compostas*/
 
 > Um array é uma variável composta que tem vários elementos, cada elemento é composto por um valor e cada valor tem sua chave de identificação(indíce)
 
-------
+----
 
-# Funções
+## Funções
 
 - São **ações** executadas assim que são **chamadas** ou em decorrência de algum **evento**
 - Uma função pode receber **parâmetros** e retornar um **resultado**
@@ -250,6 +252,30 @@ function ação(parametro, parametro){
 ação(parametro) //chamada
 
 function ação(n=0 /*parametro pré-definido*/)
+```
+
+## Arrow Functions
+
+```js
+const arrowFn = () => 'Code Here';
+const arrowFn2 = () => {
+    //Mais de uma expressão
+    return 'Code Here'
+}
+```
+
+-----
+
+## Objeto Math
+
+```jsx
+let num1 = 9.9208390283
+Math.floor(num1) // rounds the number to the lowest form.
+Math.ceil(num1) // rounds the number to the highest form.
+Math.round() // rounds to the nearest number.
+Math.max() // takes the highest number from where you are asking for.
+Math.random() // gives a random number between 0 - 1
+Math.random() * (10 - 5) + 5; // how to set between which numbers you want.
 ```
 
 ----

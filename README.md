@@ -1,6 +1,6 @@
 # Repositório do Bootcamp Eduzz Full-Stack Developer
 
-### Aqui lhes trago todos meu link que usei para apoio nos estudos e um pouco de minhas anotações sobre os tópicos sendo estudados ao longo do Bootcamp.
+### Aqui lhes trago todos os meus links que usei para apoio nos estudos e um pouco de minhas anotações sobre os tópicos sendo estudados ao longo do Bootcamp.
 
 OBS: algumas anotações vão estar em inglês porque fica mais fácil para meu entendimento.
 
