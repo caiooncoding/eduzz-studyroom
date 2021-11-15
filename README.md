@@ -10,6 +10,8 @@
 
 [Conceitos Básicos de CSS](https://github.com/caiooncoding/studyroom-dio/blob/main/about_CSS/about_CSS.md)
 
+[JavaScript Básico ao Avançado](https://github.com/caiooncoding/studyroom-dio/blob/main/about_JS/JavaScript.md)
+
 #### Links de apoio:
 
 [Sintaxe básica de Markdown](https://www.markdownguide.org/basic-syntax/)
