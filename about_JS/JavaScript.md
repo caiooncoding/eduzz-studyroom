@@ -105,12 +105,12 @@ if(condição){
 
 ```javascript
 if(condição1){
-		bloco1
+	bloco1
 }else if(condição2){
-			bloco2
-			}else if(condição3){
-					bloco3
-			}
+		bloco2
+	}else if(condição3){
+			bloco3
+	}
 }
 ```
 
@@ -118,21 +118,21 @@ if(condição1){
 
 ```javascript
 switch(expressão) {
-			case valor1:
-			bloco1
-			break
+	case valor1:
+	bloco1
+	break
 
-			case valor2:
-			bloco2
-			break
+	case valor2:
+	bloco2
+	break
 
-			case valor3:
-			bloco3
-			break
+	case valor3:
+	bloco3
+	break
 
-			default: //como se fosse o else
-			bloco4
-			break
+	default: //como se fosse o else
+	bloco4
+	break
 }
 ```
 
@@ -142,7 +142,7 @@ switch(expressão) {
 
 ```jsx
 while(condição){ 
-			bloco
+	bloco
 } /* Repetição com teste lógico no íncio */
 example:
 var c = 1
@@ -172,16 +172,14 @@ Incremento
 
 ```jsx
 for(inicio ; teste ; incremento){
-				BLOCO
+		BLOCO
 }
 
 example:
 
 for(var c = 1/*inicio*/ ; c <= 10 /*teste lógico*/ ; c++ /* incremento */){
-				BLOCO
+		BLOCO
 }
-
-for(
 ```
 
 ------
