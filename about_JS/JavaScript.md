@@ -1,14 +1,41 @@
 # JavaScript
 
-## Currying
+- String → (Text)
 
-É uma técnica de transformar uma função com vários parâmetros em uma função que recebe apenas um parâmetro e também uma nova função e assim sucessivamente.
+  ### String Manipulation
 
-## Hoisting
+  ```jsx
+  let string = 'string'
+  string.charAt() or string[] //returns an index from the string.
+  string.indexOf() //returns in which index the part of the string wanted starts.
+  string.indexOf('string', 3) //with a number after, you start the point of the index search inside the string.
+  string.lastIndexOf() //does the search backwards.
+  string.replace('string', 'outraString') // replaces one part of the string for another.
+  string.length //returns the size of the string.
+  string.slice(0, 5) //returns a sliced part of the string.
+  string.split('', 2) //returns in an array the results without the part inside the '' and after the comma sets the number of words of the string you want.
+  string.toUpperCase() //puts the string into upper case.
+  string.toLowerCase() //puts the string into lowercase.
+  ```
 
-O código JavaScript é executado em duas fases. Primeiro, é feito o **parsing**, em que são vasculhadas declarações de variáveis, funções e parâmetros. Só depois é feito a execução de fato.
+- Number → (Numbers)
 
-O efeito disso é que é como se as declarações de variáveis fossem levantadas para o topo da função ou arquivo em que estão definidas.
+  Números seguem o padrão → IEEE 754-2008
+
+  ```jsx
+  let num = 1
+  num = num.toString() //turns the value into a string for good.
+  num.toString() //turns the value into a string only in the same line of the code, not from there and foward.
+  num.soString(2) //show the binary form of that number.
+  num.toFixed(/*number of wished decimal places*/)
+  Number.isInteger(num) //check if the number is an integer
+  Number.isNaN(num) //check if the variable is NaN(Not a Number)
+  parseInt(num) //converges the number to an intenger.
+  parseFloat(num) //converges the number to a floating number.
+  ```
+
+- Boolean → (True - False)
+- Undefined and Null → (**Undefined** can only be set by the language itself, whereas **Null** can be set manually)
 
 ----
 
@@ -224,3 +251,20 @@ ação(parametro) //chamada
 
 function ação(n=0 /*parametro pré-definido*/)
 ```
+
+----
+
+## Currying
+
+É uma técnica de transformar uma função com vários parâmetros em uma função que recebe apenas um parâmetro e também uma nova função e assim sucessivamente.
+
+## Hoisting
+
+O código JavaScript é executado em duas fases. Primeiro, é feito o **parsing**, em que são vasculhadas declarações de variáveis, funções e parâmetros. Só depois é feito a execução de fato.
+
+O efeito disso é que é como se as declarações de variáveis fossem levantadas para o topo da função ou arquivo em que estão definidas.
+
+
+
+
+
