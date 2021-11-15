@@ -222,12 +222,34 @@ for(var c = 1/*inicio*/ ; c <= 10 /*teste lógico*/ ; c++ /* incremento */){
 ```jsx
 var a/*array*/ = [a, b, c/*valor*/]/*elementos*/ 
 a.[0, 1, 2/*indices*/]
+var b [1, 2, 3]
 
 var a = [a/*0*/, b/*1*/, c/*2*/, d/*3*/]
 var a[4] = x /* cria a posição 4 no array e adicionar o valor x, agora a = [a, b, c , d, x]*/
-a.push(y) /*cria mais uma posição no array e automaticamente define ela e coloca o valor y */
+a.push(y) /*cria mais uma posição no final do array e automaticamente define ela e coloca o valor y */
+a.pop() /*remove o último valor do array*/
+a.unshift() /*Adiciona um ou mais elementos no INICIO do array e retorno o valor atual do array*/
+a.shit() /*remove o elemento no INICIO do array e retorna o que foi removido*/
 a.length /* checa o tamanho do array*/
 a.sort() /* ordena */
+var c = a.concat(b)/*Concatena dois arrays*/
+a.slice(0/*indice inicial*/,2/*indice final*/ ) /*fatia o array retornando apenas os valores indicados no indíce determinado*/
+a.splice(0/*posição a ser mexida*/, 0/*quantos elementos vão ser removidos*/, 'olá'/*adição de um novo elemento no array*/) /*adiciona e remove elementos no array*/
+a.map(value => value * 2)/*retorna um novo array, a partir da expressão passada no parâmetro*/
+a.flat(/*paramêtro indica a profudindade a ser concatenada*/)  /*retorna um novo array com todos os elementos de um sub-array concatenados de forma recursiva de acordo com a depth*/
+a.keys()/*retorna um Array Iterator que contém as chaves para cada elemento do array*/
+a.values()/*retorna um Array iterator que contém os valores para cada elemento do array*/
+a.entries()/* Retornar um array iterator que contém os pares chave/valor para cada elemento do array*/
+a.find()/* retorna o primeiro item de um array que satisfaz a condição*/
+a.findIndex()/*retorna o indice do primeiro item que satisfaz a condição*/
+a.filter()/*retorna um novo array com todos os elementos que satisfazem a condição*/
+a.indexOf()/*retorna o index de um elemento desejado*/
+a.lastIndexOf()/*retorna o último index do elemento desejado*/
+a.includes()/*retorna um boolean verificando se determinado elemento existe no array*/
+a.some()/*retorna um boolean verificando se pelo menos um item de um array satisfaz a condição*/
+a.every()/*retorna um boolean veririficando se todos os itens de um array satisfazem a condição*/
+a.reverse()/*inverte a ordem do array*/
+a.join()/*junta todos os elementos de um array, separados por um delimitador e retorna um string*/
 
 for(var c in a){ /* repetição para variaveis compostas*/
 		console.log(a[c])
@@ -235,6 +257,8 @@ for(var c in a){ /* repetição para variaveis compostas*/
 ```
 
 > Um array é uma variável composta que tem vários elementos, cada elemento é composto por um valor e cada valor tem sua chave de identificação(indíce)
+
+
 
 ----
 
