@@ -288,6 +288,10 @@ const arrowFn2 = () => {
 }
 ```
 
+
+
+
+
 -----
 
 ## Objeto Math
@@ -443,6 +447,12 @@ A instância(subscriber) mantém uma coleção de objetos (observer) e notifica 
 ## Module
 
 É um pattern que possibilita organizarmos melhor o nosso código, sem a necessidade de expor uma variável global.
+
+----
+
+# Advanced JavaScript
+
+## Arrow Functions
 
 
 
