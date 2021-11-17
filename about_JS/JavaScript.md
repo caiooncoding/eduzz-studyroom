@@ -450,9 +450,7 @@ A instância(subscriber) mantém uma coleção de objetos (observer) e notifica 
 
 ----
 
-# Advanced JavaScript
+# Rest e Spread Operator
 
-## Arrow Functions
-
-
+O Rest operator ou "**...**", pega todos os parâmetros de uma função e transforma em um array, enquanto o Spread operator que também se identifica como "..." pega todos os itens de um array e transforma em parâmetros para uma função
 
