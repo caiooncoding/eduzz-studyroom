@@ -466,5 +466,51 @@ To be written...
 
 
 
+# Fetch, Async / Await, EventEmitter
+
+
+
+------
+
+# Testes
+
+## Testes automatizado
+
+* Testes unitários;
+
+São testes de pequenas partes do código, como um classe, um função, etc...
+
+* Testes integrados;
+
+São os testes de integração de parte do seu código, como duas classes reagem juntas ou como uma função dentro de outra função pode se comportar.
+
+* Testes funcionais.
+
+Testes feitos como se fosse um usuário, do começo ao fim.
+
+## Testes manuais e automatizados
+
+* Testes de usabilidade;
+* Testes de aceitação do usuário;
+* Protótipos;
+* Testes funcionais;
+* Exemplos;
+* Alpha e beta;
+
+## Ferramentas de teste
+
+* Teste de carga e performance;
+* Testes de segurança
+
+## TDD
+
+É um dos pilares do Extreme Programming, consiste em testar e refatorar em pequenos ciclos, onde você escreve o teste antes do código, faz o mesmo passar e refatora o código.
+
+
+
+
+
+
+
 
 
